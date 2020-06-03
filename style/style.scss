@@ -1,0 +1,30 @@
+@import "contacts.css";
+@import "header.css";
+@import "nav.css";
+@import "main.css";
+@import "our_products.css";
+@import "featured_products.css";
+@import "categories.css";
+
+@font-face {
+    font-family: 'Bebas Neue Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bebas Neue Regular'), url('/font/BebasNeue Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Bebas Neue Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bebas Neue Bold'), url('/font/BebasNeue Bold.woff') format('woff');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.lock{
+    overflow: hidden;
+}

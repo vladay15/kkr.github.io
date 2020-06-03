@@ -1,0 +1,91 @@
+.nav{
+    height: 45px;
+    width: 100%;
+    background: linear-gradient(to bottom, #a71603 0%,#750d02 100%);
+/*Бургер меню*/
+#menu__toggle {
+    opacity: 0;
+}
+.menu__btn {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 110px;
+  left: 20px;  
+  width: 26px;
+  height: 26px;  
+  cursor: pointer;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;  
+  width: 100%;
+  height: 2px;  
+  z-index: 3;
+  background-color: rgb(255, 255, 255);
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+.nav_list {
+  display: block;
+  position: fixed;
+  z-index: 2;
+  visibility: hidden;
+  top: 0;
+  left: -100%;  
+  width: 300px;
+  height: 100%;  
+  margin: 0;
+  padding: 80px 0;  
+  list-style: none;
+  text-align: center;  
+  background: linear-gradient(to bottom, #a71603 0%,#750d02 100%);
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+.nav_item {
+  display: block;
+  padding: 12px 24px;  
+  color: #fff;  
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;  
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav_item:hover {
+    background: linear-gradient(to bottom, #fd605e 0%,#ee3333 50%,#cb0000 50%,#790000 100%);
+}
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .nav_list {
+  visibility: visible;
+  left: 0;
+  width: 100%;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: .25s;
+}.nav_list {
+  transition-duration: .25s;
+}.nav_item {
+  transition-duration: .25s;
+}
+}

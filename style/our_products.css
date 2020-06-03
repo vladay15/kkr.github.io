@@ -1,0 +1,125 @@
+.our_products .wrap_our_products .our_product_item .our_product_icon12, .our_products .wrap_our_products .our_product_item .our_product_icon11, .our_products .wrap_our_products .our_product_item .our_product_icon10, .our_products .wrap_our_products .our_product_item .our_product_icon9, .our_products .wrap_our_products .our_product_item .our_product_icon8, .our_products .wrap_our_products .our_product_item .our_product_icon7, .our_products .wrap_our_products .our_product_item .our_product_icon6, .our_products .wrap_our_products .our_product_item .our_product_icon5, .our_products .wrap_our_products .our_product_item .our_product_icon4, .our_products .wrap_our_products .our_product_item .our_product_icon3, .our_products .wrap_our_products .our_product_item .our_product_icon2, .our_products .wrap_our_products .our_product_item .our_product_icon1 {
+  background-repeat: no-repeat;
+  display: block;
+  width: 155px;
+  height: 115px;
+}
+
+.our_products {
+  position: relative;
+  width: 100%;
+  top: 100px;
+}
+.our_products h2 {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  height: 29px;
+  margin-top: 10px;
+}
+.our_products .wrap_our_products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.our_products .wrap_our_products .our_product_item {
+  margin: 0 5px 50px 5px;
+  height: 155px;
+  width: 160px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.our_products .wrap_our_products .our_product_item .our_product_icon1 {
+  background-image: url(/img/our_product_icon1.png);
+}
+.our_products .wrap_our_products .our_product_item .our_product_icon2 {
+  background-image: url(/img/our_product_icon2.png);
+}
+.our_products .wrap_our_products .our_product_item .our_product_icon3 {
+  background-image: url(/img/our_product_icon3.png);
+}
+.our_products .wrap_our_products .our_product_item .our_product_icon4 {
+  background-image: url(/img/our_product_icon4.png);
+}
+.our_products .wrap_our_products .our_product_item .our_product_icon5 {
+  background-image: url(/img/our_product_icon5.png);
+}
+.our_products .wrap_our_products .our_product_item .our_product_icon6 {
+  background-image: url(/img/our_product_icon6.png);
+}
+.our_products .wrap_our_products .our_product_item .our_product_icon7 {
+  background-image: url(/img/our_product_icon7.png);
+}
+.our_products .wrap_our_products .our_product_item .our_product_icon8 {
+  background-image: url(/img/our_product_icon8.png);
+}
+.our_products .wrap_our_products .our_product_item .our_product_icon9 {
+  background-image: url(/img/our_product_icon9.png);
+}
+.our_products .wrap_our_products .our_product_item .our_product_icon10 {
+  background-image: url(/img/our_product_icon10.png);
+}
+.our_products .wrap_our_products .our_product_item .our_product_icon11 {
+  background-image: url(/img/our_product_icon11.png);
+}
+.our_products .wrap_our_products .our_product_item .our_product_icon12 {
+  background-image: url(/img/our_product_icon12.png);
+}
+.our_products .wrap_our_products .our_product_item .our_product_name {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #292929;
+}
+.our_products .wrap_our_products .our_product_item .our_product_price {
+  font-size: 13px;
+  color: #292929;
+}
+.our_products .wrap_our_products .our_product_item .our_product_price span {
+  color: #b20e00;
+}
+.our_products .our_products_page_list {
+  width: 100%;
+}
+.our_products .our_products_page_list ul {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.our_products .our_products_page_list ul li {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+.our_products .our_products_page_list ul .our_item_nl a {
+  color: #b20e00;
+  text-decoration: none;
+}
+.our_products .our_products_page_list ul .our_item_nl:nth-child(6) {
+  width: 50px;
+}
+.our_products .our_products_page_list ul .our_item_nl:nth-child(7) {
+  width: 55px;
+}
+.our_products .our_products_page_list ul .our_item_li {
+  transition: 0.3s ease-in-out;
+}
+.our_products .our_products_page_list ul .our_item_li .our_item {
+  vertical-align: middle;
+  color: #b20e00;
+  text-decoration: none;
+}
+.our_products .our_products_page_list ul .our_item_li:hover {
+  background-color: #b20e00;
+}
+.our_products .our_products_page_list ul .our_item_li:hover .our_item {
+  color: #fff;
+}
+.our_products .our_line {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #cdcdc8;
+}
