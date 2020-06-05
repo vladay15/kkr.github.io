@@ -20,4 +20,26 @@ categories_close.addEventListener('click',()=>{
     body.classList.remove('lock');
 });
 
-event.preventDefault();
+let company_btn = document.querySelector('#company_btn');
+let company_list = document.querySelector('.company_list');
+company_btn.addEventListener('click',()=>{
+    company_list.classList.toggle('active_list');
+});
+
+let categories_btn = document.querySelector('#categories_btn');
+let footer_categories_list = document.querySelector('.footer_categories_list');
+categories_btn.addEventListener('click',()=>{
+    footer_categories_list.classList.toggle('active_list');
+});
+
+let info_btn = document.querySelector('#info_btn');
+let information_list = document.querySelector('.information_list');
+info_btn.addEventListener('click',()=>{
+    information_list.classList.toggle('active_list');
+});
+
+let sc_btn = document.querySelector('#sc_btn');
+let social_network_list = document.querySelector('.social_network_list');
+sc_btn.addEventListener('click',()=>{
+    social_network_list.classList.toggle('active_list');
+});

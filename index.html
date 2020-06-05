@@ -27,7 +27,7 @@
             <div class="contacts_help">
                 <div class="contacts_help_row">
                     <p>
-                        <img src="/img/help_phone.png" class="help_icon_phone"></img>
+                        <img src="img/help_phone.png" class="help_icon_phone"></img>
                         <span class="help_number">123.456.7890</span>
                     </p>
                     <p>
@@ -84,7 +84,7 @@
         <div class="main_header">
             <h3>Festival Offer</h3>
             <h2>sale</h2>
-            <img src="/img/main_heafer_bottle.png" alt="">
+            <img src="img/main_heafer_bottle.png" alt="">
             <div class="main_header_block">
                 <h4>product title</h4>
                 <p>
@@ -239,22 +239,24 @@
                 <button>Join Now</button>
             </div>
             <div class="wrap_social_network">
-                <p class="social_network_twitter">
-                    <span class="social_network_icon_twitter"></span>
-                    <span class="social_network_text_twitter">Follow us on Twitter</span>
-                </p>
-                <p class="social_network_facebook">
-                    <span class="social_network_icon_facebook"></span>
-                    <span class="social_network_text_facebook">Become our fan on Facebook</span>
-                </p>
-                <p class="social_network_linkedin">
-                    <span class="social_network_icon_linkedin"></span>
-                    <span class="social_network_text_linkedin">Connect with us on  LinkedIn</span>
-                </p>
-                <p class="ocial_network_email">
-                    <span class="social_network_icon_email"></span>
-                    <span class="social_network_text_email">Send us your email enquiries</span>
-                </p>
+                <div class="container_social_network">
+                    <p class="social_network_twitter">
+                        <span class="social_network_icon_twitter"></span>
+                        <a href="#" class="social_network_text_twitter">Follow us on Twitter</a>
+                    </p>
+                    <p class="social_network_facebook">
+                        <span class="social_network_icon_facebook"></span>
+                        <a href="#" class="social_network_text_facebook">Become our fan on Facebook</a>
+                    </p>
+                    <p class="social_network_linkedin">
+                        <span class="social_network_icon_linkedin"></span>
+                        <a href="#" class="social_network_text_linkedin">Connect with us on  LinkedIn</a>
+                    </p>
+                    <p class="ocial_network_email">
+                        <span class="social_network_icon_email"></span>
+                        <a href="#" class="social_network_text_email">Send us your email enquiries</a>
+                    </p>
+                </div>
             </div>
         </section>
         <section class="pay_pal">
@@ -274,12 +276,12 @@
         </div>
         <div class="header_block_search">
             <input type="text" placeholder="Search website">
-            <button>GO</button>
+            <button><span>GO</span></button>
         </div>
     </section>
     <section class="footer">
         <div class="company">
-            <p>Company</p>
+            <p id="company_btn">Company</p>
             <ul class="company_list">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
@@ -290,6 +292,7 @@
             </ul>
         </div>
         <div class="footer_categories">
+            <p id="categories_btn">Categories</p>
             <ul class="footer_categories_list">
                 <li><a href="#">Lorem ipsum  dolor sit</a></li>
                 <li><a href="#">Amet consectetur</a></li>
@@ -300,6 +303,7 @@
             </ul>
         </div>
         <div class="information">
+            <p id="info_btn">Information</p>
             <ul class="information_list">
                 <li><a href="#">My Account</a></li>
                 <li><a href="#">Rewards</a></li>
@@ -308,7 +312,8 @@
                 <li><a href="#">FAQ</a></li>
             </ul>
         </div>
-        <div class="social_network">
+        <div class="footer_social_network">
+            <p id="sc_btn">Social Network</p>
             <ul class="social_network_list">
                 <li><a href="#">My Account</a></li>
                 <li><a href="#">Rewards</a></li>
@@ -318,15 +323,18 @@
             </ul>
         </div>
         <div class="contact_us">
-            <ul class="contact_us_list">
-                <li>Phone: 1.234..567.8901</li>
-                <li>Toll-Free:1.234.567.8901</li>
-                <li>Fax: 1.234.567.8901</li>
-                <li>Email: Send us an email</li>
-            </ul>
-            <div class="contact_us_schedule">
-                <p class="schedule_open">MON-SAT 9am to 7:30pm</p>
-                <p class="schedule_close">Sundays,holidays closed</p>
+            <p>Contact Us</p>
+            <div class="container_contact_us">
+                <ul class="contact_us_list">
+                    <li>Phone: 1.234..567.8901</li>
+                    <li>Toll-Free:1.234.567.8901</li>
+                    <li>Fax: 1.234.567.8901</li>
+                    <li>Email: <span>Send us an email</span></li>
+                </ul>
+                <div class="contact_us_schedule">
+                    <p class="schedule_open">MON-SAT 9am to 7:30pm</p>
+                    <p class="schedule_close">Sundays,holidays closed</p>
+                </div>
             </div>
         </div>
     </section>

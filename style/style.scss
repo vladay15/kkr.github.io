@@ -1,3 +1,4 @@
+@import "reset.css";
 @import "contacts.css";
 @import "header.css";
 @import "nav.css";
@@ -5,6 +6,9 @@
 @import "our_products.css";
 @import "featured_products.css";
 @import "categories.css";
+@import "social_network.css";
+@import "footer.css";
+
 
 @font-face {
     font-family: 'Bebas Neue Regular';
@@ -27,4 +31,78 @@
 }
 .lock{
     overflow: hidden;
+}
+.pay_pal{
+    display: none;
+}
+.black_line{
+    position: relative;
+    height: 62px;
+    width: 100%;
+    display: flex;
+    background-color: #120200;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 14px;
+    .black_line_secured{
+        display: flex;
+        align-items: center;
+        .black_line_icon{
+            margin: 5px;
+            display: inline-block;
+            width: 57px;
+            height: 57px;
+            background-repeat: no-repeat;
+            background-image: url('/img/black_line_secured.png');
+        }
+        span{
+            width: 60%;
+        }
+    }
+    .black_line_box{
+        display: flex;
+        align-items: center;
+        .black_line_icon{
+            margin: 5px;
+            display: inline-block;
+            width: 42px;
+            height: 42px;
+            background-repeat: no-repeat;
+            background-image: url('/img/black_line_box.png');
+        }
+        span{
+            width: 60%;
+        }
+    }
+    .header_block_search{
+        position: absolute;
+        display: flex;
+        display: none;
+        input{
+            // width: 250px;
+            width: 200px;
+            height: 30px;
+            border-top-left-radius: 7px;
+            border-bottom-left-radius: 7px;
+            padding: 0 0 1px 20px;
+            background: linear-gradient(to bottom, #d2d0c8 0%,#ecebe8 50%,#ffffff 50%,#ffffff 100%);
+        }
+            button{
+            width: 40px;
+            height: 30px;
+            margin-left: -1px;
+            font-size: 20px;
+            font-family: 'Bebas Neue Bold';
+            border-top-right-radius: 7px;
+            border-bottom-right-radius: 7px;
+            cursor: pointer;
+            background: linear-gradient(to bottom, #b06a6a 0%,#923c3c 50%,#791515 50%,#871a1a 100%);
+            span{
+                background: linear-gradient(to bottom, #fffffd 0%,#f2dd46 100%);
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+            }
+    }
+}
 }

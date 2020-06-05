@@ -26,7 +26,7 @@
             width: 160px;
             font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
             .our_product_icon1{
-                background-image: url(/img/our_product_icon1.png);
+                background-image: url('/img/our_product_icon1.png');
                 @extend %icon;
             }
             .our_product_icon2{

@@ -106,7 +106,7 @@
 .featured_products .wrap_featured_products .featured_products_row .item1 .featured_products_icon1 {
   width: 145px;
   height: 100px;
-  background-image: url(/img/featured_products_icon1.png);
+  background-image: url("/img/featured_products_icon1.png");
 }
 .featured_products .wrap_featured_products .featured_products_row .item2 {
   display: flex;

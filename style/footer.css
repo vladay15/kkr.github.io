@@ -1,0 +1,191 @@
+.footer {
+  background: linear-gradient(to bottom, #a81704 0%, #a81704 50%, #631409 100%);
+  width: 100%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.footer .company {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.footer .company:after {
+  content: "";
+  position: relative;
+  top: 8px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 5px 0 5px;
+  border-color: #ffffff transparent transparent transparent;
+}
+.footer .company p {
+  position: relative;
+  top: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+.footer .company .company_list {
+  display: none;
+}
+.footer .company .company_list li {
+  position: relative;
+  top: 10px;
+  margin: 5px;
+}
+.footer .company .company_list li a {
+  color: #cfcfcf;
+}
+.footer .company .active_list {
+  display: block;
+  position: relative;
+}
+.footer .footer_categories {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.footer .footer_categories:after {
+  content: "";
+  position: relative;
+  top: 8px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 5px 0 5px;
+  border-color: #ffffff transparent transparent transparent;
+}
+.footer .footer_categories p {
+  position: relative;
+  top: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+.footer .footer_categories .footer_categories_list {
+  display: none;
+}
+.footer .footer_categories .footer_categories_list li {
+  position: relative;
+  top: 10px;
+  margin: 5px;
+}
+.footer .footer_categories .footer_categories_list li a {
+  color: #cfcfcf;
+}
+.footer .footer_categories .active_list {
+  display: block;
+  position: relative;
+}
+.footer .information {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.footer .information:after {
+  content: "";
+  position: relative;
+  top: 8px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 5px 0 5px;
+  border-color: #ffffff transparent transparent transparent;
+}
+.footer .information p {
+  position: relative;
+  top: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+.footer .information .information_list {
+  display: none;
+}
+.footer .information .information_list li {
+  position: relative;
+  top: 10px;
+  margin: 5px;
+}
+.footer .information .information_list li a {
+  color: #cfcfcf;
+}
+.footer .information .active_list {
+  display: block;
+  position: relative;
+}
+.footer .footer_social_network {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.footer .footer_social_network:after {
+  content: "";
+  position: relative;
+  top: 8px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 5px 0 5px;
+  border-color: #ffffff transparent transparent transparent;
+}
+.footer .footer_social_network p {
+  position: relative;
+  top: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+.footer .footer_social_network .social_network_list {
+  display: none;
+}
+.footer .footer_social_network .social_network_list li {
+  position: relative;
+  top: 10px;
+  margin: 5px;
+}
+.footer .footer_social_network .social_network_list li a {
+  color: #cfcfcf;
+}
+.footer .footer_social_network .active_list {
+  display: block;
+  position: relative;
+}
+.footer .contact_us {
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+}
+.footer .contact_us p {
+  color: #fff;
+  left: 10px;
+  position: relative;
+}
+.footer .contact_us .container_contact_us {
+  display: flex;
+  justify-content: space-around;
+}
+.footer .contact_us .container_contact_us .contact_us_list {
+  width: 50%;
+  color: #cfcfcf;
+  margin: 5px;
+}
+.footer .contact_us .container_contact_us .contact_us_list li span {
+  color: #ffcc00;
+}
+.footer .contact_us .container_contact_us .contact_us_schedule {
+  font-size: 14px;
+  color: #fff;
+  width: 40%;
+}
