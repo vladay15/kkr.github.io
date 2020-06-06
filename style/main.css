@@ -8,6 +8,7 @@
   height: 250px;
   position: relative;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  overflow: hidden;
 }
 .main .main_header h2 {
   background: linear-gradient(to bottom, #fd6363 0%, #ec2f2f 50%, #ec3030 50%, #cb0000 50%, #730000 100%);
@@ -17,7 +18,8 @@
   position: absolute;
   top: 55px;
   left: 10px;
-  font-family: "Bebas Neue Regular";
+  font-family: "Bebas Neue Bold";
+  font-weight: 400;
   text-transform: uppercase;
 }
 .main .main_header h3 {
@@ -29,12 +31,15 @@
   top: 45px;
   left: 20px;
 }
-.main .main_header img {
+.main .main_header .main_bottle {
   position: absolute;
   right: 10px;
   top: 50px;
   z-index: 0;
   width: 100px;
+}
+.main .main_header .main_office {
+  display: none;
 }
 .main .main_header .main_header_block {
   width: 100%;
@@ -148,4 +153,40 @@
 }
 .main .main_sort_page .main_page {
   display: none;
+}
+
+/*main media*/
+@media screen and (min-width: 500px) {
+  .main .main_header .main_bottle {
+    right: 150px;
+  }
+  .main .main_header .main_office {
+    display: block;
+    width: 150px;
+    position: absolute;
+    top: 50px;
+    z-index: 0;
+    right: -50px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .main .main_header h2 {
+    font-size: 140px;
+    top: 40px;
+  }
+  .main .main_header h3 {
+    top: 35px;
+    left: 30px;
+  }
+  .main .main_header .main_bottle {
+    right: 250px;
+  }
+  .main .main_header .main_office {
+    display: block;
+    width: 200px;
+    position: absolute;
+    top: 10px;
+    z-index: 0;
+    right: 0px;
+  }
 }

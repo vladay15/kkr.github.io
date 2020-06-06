@@ -112,7 +112,7 @@
                     }
                 }
                 .item2{
-                    display: flex;
+                    // display: flex;
                     display: none;
                     margin-top: 25px;
                     align-items: center;
@@ -128,7 +128,7 @@
                     }
                 }
                 .item3{
-                    display: flex;
+                    // display: flex;
                     display: none;
                     margin-top: 25px;
                     align-items: center;
@@ -143,6 +143,20 @@
                         background-image: url(/img/featured_products_icon3.png);
                     }
                 }
+        }
+    }
+}
+/*featured products media*/
+@media screen and (min-width: 500px) {
+    .featured_products{
+        .wrap_featured_products{
+            .featured_products_row{
+                .item2{
+                    display: flex;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+            }
         }
     }
 }

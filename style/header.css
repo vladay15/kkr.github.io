@@ -84,3 +84,10 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+
+/*header media*/
+@media screen and (min-width: 400px) {
+  .header_container {
+    justify-content: center;
+  }
+}
