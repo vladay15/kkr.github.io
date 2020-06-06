@@ -12,13 +12,13 @@
   font-family: "Bebas Neue Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("Bebas Neue Regular"), url("/font/BebasNeue Regular.woff") format("woff");
+  src: local("Bebas Neue Regular"), url("fonts/BebasNeue Regular.woff") format("woff");
 }
 @font-face {
   font-family: "Bebas Neue Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("Bebas Neue Bold"), url("/font/BebasNeue Bold.woff") format("woff");
+  src: local("Bebas Neue Bold"), url("fonts/BebasNeue Bold.woff") format("woff");
 }
 * {
   padding: 0;
@@ -56,7 +56,7 @@
   width: 57px;
   height: 57px;
   background-repeat: no-repeat;
-  background-image: url("/img/black_line_secured.png");
+  background-image: url("../img/black_line_secured.png");
 }
 .black_line .black_line_secured span {
   width: 60%;
@@ -71,7 +71,7 @@
   width: 42px;
   height: 42px;
   background-repeat: no-repeat;
-  background-image: url("/img/black_line_box.png");
+  background-image: url("../img/black_line_box.png");
 }
 .black_line .black_line_box span {
   width: 60%;

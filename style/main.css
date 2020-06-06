@@ -91,7 +91,7 @@
 .main .main_sort_page .main_ascending select {
   width: 85px;
   height: 20px;
-  background: scroll url("/img/main_sort_page_arrow.png") right 0 center no-repeat;
+  background: scroll url("../img/main_sort_page_arrow.png") right 0 center no-repeat;
   border: 1px solid #cccccc;
   -webkit-appearance: none;
   cursor: pointer;
@@ -120,7 +120,7 @@
   height: 20px;
   -webkit-appearance: none;
   border: 1px solid #cccccc;
-  background: scroll url("/img/main_sort_page_arrow.png") right 0 center no-repeat;
+  background: scroll url("../img/main_sort_page_arrow.png") right 0 center no-repeat;
   cursor: pointer;
 }
 .main .main_sort_page .main_brand_name {
@@ -143,7 +143,7 @@
   height: 20px;
   -webkit-appearance: none;
   border: 1px solid #cccccc;
-  background: scroll url("/img/main_sort_page_arrow.png") right 0 center no-repeat;
+  background: scroll url("../img/main_sort_page_arrow.png") right 0 center no-repeat;
   cursor: pointer;
 }
 .main .main_sort_page .main_page {

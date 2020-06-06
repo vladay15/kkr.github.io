@@ -76,7 +76,7 @@
   width: 35px;
   height: 35px;
   background-repeat: no-repeat;
-  background-image: url("/img/twitter.png");
+  background-image: url("../img/twitter.png");
   margin-right: 29px;
 }
 .social_network .wrap_social_network .container_social_network .social_network_twitter a {
@@ -92,7 +92,7 @@
   width: 35px;
   height: 35px;
   background-repeat: no-repeat;
-  background-image: url("/img/facebook.png");
+  background-image: url("../img/facebook.png");
   margin-right: 29px;
 }
 .social_network .wrap_social_network .container_social_network .social_network_facebook a {
@@ -108,7 +108,7 @@
   width: 35px;
   height: 35px;
   background-repeat: no-repeat;
-  background-image: url("/img/linkedin.png");
+  background-image: url("../img/linkedin.png");
   margin-right: 29px;
 }
 .social_network .wrap_social_network .container_social_network .social_network_linkedin a {
@@ -124,7 +124,7 @@
   width: 35px;
   height: 35px;
   background-repeat: no-repeat;
-  background-image: url("/img/email.png");
+  background-image: url("../img/email.png");
   margin-right: 29px;
 }
 .social_network .wrap_social_network .container_social_network .social_network_email a {
