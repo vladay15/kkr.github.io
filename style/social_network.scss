@@ -45,16 +45,18 @@
             position: relative;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
-            left: 7%;
         p{
+            display: flex;
+            align-items: center;
+            justify-content: center;
             margin-bottom: 8px;
             &:after{
                 position: absolute;
+                display: flex;
+                justify-content: center;
                 content: '';
-                width: 120%;
-                left: -50px;
+                width: 300px;
                 height: 2px;
                 top: -5px;
                 background-color: #fff;
@@ -65,8 +67,6 @@
         }
         .social_network_twitter{
             position: relative;
-            display: flex;
-            align-items: center;
             width: 75%;
             .social_network_icon_twitter{
                 display: inline-block;
@@ -76,11 +76,13 @@
                 background-image: url('/img/twitter.png');
                 margin-right: 29px;
             }
+            a{
+                text-align: left;
+                width: 200px;
+            }
         }
         .social_network_facebook{
             position: relative;
-            display: flex;
-            align-items: center;
             width: 75%;
             .social_network_icon_facebook{
                 display: inline-block;
@@ -90,11 +92,13 @@
                 background-image: url('/img/facebook.png');
                 margin-right: 29px;
             }
+            a{
+                text-align: left;
+                width: 200px;
+            }
         }
         .social_network_linkedin{
             position: relative;
-            display: flex;
-            align-items: center;
             width: 75%;
             .social_network_icon_linkedin{
                 display: inline-block;
@@ -104,12 +108,13 @@
                 background-image: url('/img/linkedin.png');
                 margin-right: 29px;
             }
-
+            a{
+                text-align: left;
+                width: 200px;
+            }
         }
-        .ocial_network_email{
+        .social_network_email{
             position: relative;
-            display: flex;
-            align-items: center;
             width: 75%;
             .social_network_icon_email{
                 display: inline-block;
@@ -118,6 +123,10 @@
                 background-repeat: no-repeat;
                 background-image: url('/img/email.png');
                 margin-right: 29px;
+            }
+            a{
+                text-align: left;
+                width: 200px;
             }
         }
     }
