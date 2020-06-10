@@ -11,47 +11,62 @@
         align-items: center;
         margin-left: 10px;
         margin-right: 10px;
-    .header_icon_bag{
-        width: 70px;
-        height: 70px;
-        background-image: url('../img/header_bag.png');
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .header_basket{
-        color: #fff;
-        font-size: 14px;
-        width: 160px;
-        margin-top: 13px;
-        text-align: center;
-        .header_basket_row{
-            line-height: 0.8;
-            font-size: 15px;
-            .header_text{
-                margin: 0 5px;
-                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        .header_left_block{
+            display: none;
+            position: absolute;
+            left: 100px;
+            .header_icon_bag{
+                width: 70px;
+                height: 70px;
+                background-image: url('../img/header_bag.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                position: absolute;
+                left: -50px;
+                display: inline-block;
+                z-index: 1;
             }
-        }
-        .header_btn{
-            margin-top: 10px;
-            text-align: center;
-            background-color: #b20e00;
-            // border: none;
-            border-radius: 20px;
-            width: 110px;
-            height: 25px;
-            color: #ffc200;
-        }
+            .header_basket{
+                color: #fff;
+                font-size: 14px;
+                width: 160px;
+                margin-top: 13px;
+                text-align: center;
+                position: relative;
+                z-index: 1;
+                .header_basket_row{
+                    line-height: 0.8;
+                    font-size: 15px;
+                    .header_text{
+                        margin: 0 5px;
+                        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                    }
+                }
+                .header_btn{
+                    margin-top: 10px;
+                    text-align: center;
+                    background-color: #b20e00;
+                    border: none;
+                    box-shadow: inset 0 1px 0 #3d0500, inset 0 -1px 1px #d98780;
+                    border-radius: 20px;
+                    width: 110px;
+                    height: 25px;
+                    cursor: pointer;
+                    color: #ffc200;
+                }
     }
+}
     h1{
         position: relative;
         left: 0;
         text-transform: uppercase;
-        width: 100px;
+        // width: 100px;
         text-align: center;
         color: rgb(251,251,251);
         font-size: 26px;
         font-family: 'Bebas Neue Regular';
+        text-shadow: 2px 2px 5px black;
+        line-height: 0.8;
         // margin: 0 auto;
         //bebas
     }
@@ -90,8 +105,74 @@
 }
 }
 /*header media*/
-@media screen and (min-width: 400px) {
-    .header_container{
+@media screen and (min-width: 300px) {
+    .header{
+        .header_container{
+            justify-content: center;
+                h1{
+                    font-size: 30px;
+                }
+        }
+    }
+}
+@media screen and (min-width: 700px) {
+    .header{
+        .header_container{
+            width: 100%;
+            position: relative;
+            // overflow: hidden;
+            // justify-content: start;
+            .header_left_block{
+                display: block;
+            }
+            .header_block_search{
+                top: 35px;
+                input{
+                    width: 180px;
+                }
+            }
+            h1{
+                display: flex;
+                justify-content: center;
+                font-size: 49px;
+                width: 200px;
+                
+            }
+            .header_light{
+                position: absolute;
+                left: 0;
+                top: -5px;
+                width: 100%;
+                height: 100px;
+                opacity: 0.7;
+                background-repeat: no-repeat;
+                background-position:center;
+                background-image: url('../img/header_light.png');
+            }
+        }
+    }
+}
+@media screen and (min-width: 950px) {
+    .header{
+        display: flex;
         justify-content: center;
+        position: relative;
+        z-index: 2;
+        .header_container{
+            width: 960px;
+            h1{
+                font-size: 55px;
+                line-height: 0.8;
+                letter-spacing: 5px;
+            }
+            .header_block_search{
+                input{
+                    width: 250px;
+                }
+                button{
+                    width: 42px;
+                }
+            }
+        }
     }
 }

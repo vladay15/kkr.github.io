@@ -26,6 +26,7 @@
 .our_products .wrap_our_products .our_product_item {
   margin: 0 5px 50px 5px;
   height: 155px;
+  cursor: pointer;
   width: 160px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -122,4 +123,20 @@
   width: 100%;
   height: 1px;
   background-color: #cdcdc8;
+}
+
+@media screen and (min-width: 950px) {
+  .our_products {
+    left: 250.5px;
+    top: 15px;
+    width: 685px;
+  }
+  .our_products h2 {
+    text-align: left;
+    margin-left: 10px;
+  }
+  .our_products .our_line {
+    right: 13px;
+    width: 665px;
+  }
 }

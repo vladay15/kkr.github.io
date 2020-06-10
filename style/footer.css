@@ -180,6 +180,10 @@
   color: #cfcfcf;
   margin: 5px;
 }
+.footer .contact_us .container_contact_us .contact_us_list p {
+  font-weight: bold;
+  font-size: 15px;
+}
 .footer .contact_us .container_contact_us .contact_us_list li span {
   color: #ffcc00;
 }
@@ -187,4 +191,144 @@
   font-size: 14px;
   color: #fff;
   width: 40%;
+}
+
+@media screen and (min-width: 950px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+  }
+  .footer .footer_container {
+    display: flex;
+    justify-content: space-between;
+    width: 945px;
+    position: relative;
+    margin-top: 40px;
+  }
+  .footer .footer_container .company {
+    margin: 0 78px 0 23px;
+    width: 80px;
+    height: 150px;
+    text-align: left;
+    position: relative;
+  }
+  .footer .footer_container .company:after {
+    display: none;
+  }
+  .footer .footer_container .company .company_list {
+    width: 80px;
+    display: block;
+    text-align: left;
+  }
+  .footer .footer_container .company .company_list li a {
+    font-size: 13px;
+  }
+  .footer .footer_container .company .company_list li:first-child {
+    margin-top: 30px;
+  }
+  .footer .footer_container .company p {
+    margin-left: 5px;
+    font-size: 15px;
+  }
+  .footer .footer_container .footer_categories {
+    width: 138px;
+    height: 150px;
+    text-align: left;
+    position: relative;
+    margin: 0 80px 0 0;
+  }
+  .footer .footer_container .footer_categories:after {
+    display: none;
+  }
+  .footer .footer_container .footer_categories .footer_categories_list {
+    display: block;
+    position: relative;
+    width: 138px;
+  }
+  .footer .footer_container .footer_categories .footer_categories_list li a {
+    font-size: 13px;
+  }
+  .footer .footer_container .footer_categories .footer_categories_list li:first-child {
+    margin-top: 30px;
+  }
+  .footer .footer_container .footer_categories p {
+    margin-left: 5px;
+    font-size: 15px;
+  }
+  .footer .footer_container .information {
+    position: relative;
+    width: 115px;
+    height: 150px;
+    margin: 0 75px 0 0;
+    text-align: left;
+  }
+  .footer .footer_container .information:after {
+    display: none;
+  }
+  .footer .footer_container .information .information_list {
+    display: block;
+    position: relative;
+    width: 115px;
+  }
+  .footer .footer_container .information .information_list li a {
+    font-size: 13px;
+  }
+  .footer .footer_container .information .information_list li:first-child {
+    margin-top: 30px;
+  }
+  .footer .footer_container .information p {
+    margin-left: 5px;
+    font-size: 15px;
+  }
+  .footer .footer_container .footer_social_network {
+    width: 115px;
+    position: relative;
+    height: 150px;
+    text-align: left;
+    margin: 0 80px 0 0;
+  }
+  .footer .footer_container .footer_social_network:after {
+    display: none;
+  }
+  .footer .footer_container .footer_social_network .social_network_list {
+    display: block;
+    position: relative;
+    width: 115px;
+  }
+  .footer .footer_container .footer_social_network .social_network_list li a {
+    font-size: 13px;
+  }
+  .footer .footer_container .footer_social_network .social_network_list li:first-child {
+    margin-top: 30px;
+  }
+  .footer .footer_container .footer_social_network p {
+    margin-left: 5px;
+    font-size: 15px;
+  }
+  .footer .footer_container .contact_us {
+    position: relative;
+    width: 150px;
+    margin: 0 10px 0 0;
+    padding: -10px;
+  }
+  .footer .footer_container .contact_us .container_contact_us {
+    width: 190px;
+  }
+  .footer .footer_container .contact_us .container_contact_us .contact_us_list {
+    width: 150px;
+  }
+  .footer .footer_container .contact_us .container_contact_us .contact_us_list li {
+    font-size: 13px;
+  }
+  .footer .footer_container .contact_us .container_contact_us .contact_us_list li:nth-child(2) {
+    margin-top: 30px;
+  }
+  .footer .footer_container .contact_us .container_contact_us .contact_us_schedule {
+    position: absolute;
+    top: 145px;
+    right: -30px;
+    font-size: 13px;
+    width: 160px;
+  }
 }

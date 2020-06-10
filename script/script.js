@@ -8,6 +8,7 @@ let categories_close = document.querySelector('#categories_close');
 let categories_open = document.querySelector('#categories_open');
 let categories_block = document.querySelector('#categories_block');
 let categories_container = document.querySelector('.categories_container');
+if(screen.width<950){
 categories_open.addEventListener('click',()=>{
     categories_container.style.display= 'flex';
     categories_block.style.display = 'block';
@@ -19,7 +20,7 @@ categories_close.addEventListener('click',()=>{
     categories_block.style.display = 'none';
     body.classList.remove('lock');
 });
-
+}
 let company_btn = document.querySelector('#company_btn');
 let company_list = document.querySelector('.company_list');
 company_btn.addEventListener('click',()=>{

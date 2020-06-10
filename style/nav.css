@@ -92,3 +92,55 @@
 .nav .nav_item {
   transition-duration: 0.25s;
 }
+
+@media screen and (min-width: 900px) {
+  .nav {
+    position: relative;
+  }
+  .nav .hamburger-menu {
+    width: 100%;
+  }
+  .nav .hamburger-menu .nav_list {
+    display: flex;
+    justify-content: center;
+    visibility: visible;
+    align-items: center;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    height: 45px;
+    list-style: none;
+    text-align: center;
+    padding: 10px 0;
+    left: 0;
+    position: absolute;
+    background: none;
+    box-shadow: none;
+  }
+  .nav .hamburger-menu .nav_list .nav_item {
+    display: block;
+    color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 20px;
+    margin: 0 8px;
+    height: 30px;
+    padding: 8px;
+    border-radius: 3px;
+  }
+  .nav .hamburger-menu .menu__toggle {
+    display: none;
+  }
+  .nav .hamburger-menu .menu__btn {
+    display: none;
+  }
+}
+@media screen and (min-width: 950px) {
+  .nav .hamburger-menu .nav_list {
+    box-shadow: 0 0 10px black;
+    z-index: 1;
+  }
+}

@@ -14,13 +14,13 @@
     font-family: 'Bebas Neue Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Bebas Neue Regular'), url('fonts/BebasNeue Regular.woff') format('woff');
+    src: local('Bebas Neue Regular'), url('../fonts/BebasNeue Regular.woff') format('woff');
 }
 @font-face {
     font-family: 'Bebas Neue Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Bebas Neue Bold'), url('fonts/BebasNeue Bold.woff') format('woff');
+    src: local('Bebas Neue Bold'), url('../fonts/BebasNeue Bold.woff') format('woff');
 }
 
 *{
@@ -45,6 +45,8 @@
     font-weight: bold;
     color: #fff;
     font-size: 14px;
+    .black_line_container{
+        display: flex;
     .black_line_secured{
         display: flex;
         align-items: center;
@@ -105,4 +107,58 @@
             }
     }
 }
+    }
+}
+@media screen and(min-width:950px){
+    .black_line{
+        display: flex;
+        justify-content: center;
+       .black_line_container{
+           position: relative;
+           width: 940px;
+           align-items: center;
+           .black_line_secured{
+               margin-left: 15px;
+           }
+           .header_block_search{
+                display: flex;
+                position: absolute;
+                right: 0;
+           }
+       }
+    }
+    .pay_pal{
+        display: block;
+        position: absolute;
+        top: 1118px;
+        left: 7px;
+        width: 200px;
+        height: 200px;
+        // border: 1px solid black;
+        .pay_pal_icon{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-repeat: no-repeat;
+            background-image: url('../img/pay.png');
+        }
+        .google_icon{
+            width: 100%;
+            height: 100%;
+            top: 80px;
+            left: 10px;
+            position: absolute;
+            background-repeat: no-repeat;
+            background-image: url('../img/google.png');
+        }
+        .secure_icon{
+            width: 100%;
+            height: 100%;
+            left: 50px;
+            top: 135px;
+            position: absolute;
+            background-repeat: no-repeat;
+            background-image: url('../img/secure.png');
+        }
+    }
 }
